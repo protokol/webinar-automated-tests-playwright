@@ -25,17 +25,42 @@ mdc: true
 Why fix something in 5 mins,<br/> if you can automate it in 5 hours?
 
 ---
-transition: fade-out
+transition: slide-up
 ---
 
 # Agenda
 
-1. Playwright base principles
-    1. Test cases
-    2. Assertions
+1. Playwright 101
+    1. Actions + Assertions for frontend testing
+    2. Actions + Assertions for API testing
 2. How to write your first test
 3. Advanced tips
     1. Use isolated environments
     2. Don't be TOO specific with assertions (avoid Brittle tests)
     3. Leverage the multiple browsers support
     4. Use it for API testing
+
+---
+transition: slide-left
+src: ./pages/playwright/00_frontend.md
+---
+
+---
+src: ./pages/playwright/01_backend.md
+---
+
+---
+src: ./pages/playwright/02_backend_real_example.md
+---
+
+---
+src: ./pages/first-test/00_playwright_setup.md
+---
+
+---
+src: ./pages/first-test/01_playwright_setup.md
+---
+
+---
+src: ./pages/first-test/03_write_first_test.md
+---
