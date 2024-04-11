@@ -1,4 +1,4 @@
-# Getting started (1/3)
+# Setting up Playwright
 
 ```bash
 mkdir playwright-experiment && cd playwright-experiment # create empty folder

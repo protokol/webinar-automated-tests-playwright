@@ -1,6 +1,6 @@
 ---
 # try also 'default' to start simple
-theme: seriph
+theme: default
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://images.unsplash.com/photo-1516110833967-0b5716ca1387?q=80&w=3774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
@@ -30,15 +30,12 @@ transition: slide-up
 
 # Agenda
 
-1. Playwright 101
-    1. Actions + Assertions for frontend testing
-    2. Actions + Assertions for API testing
-2. How to write your first test
-3. Advanced tips
-    1. Use isolated environments
-    2. Don't be TOO specific with assertions (avoid Brittle tests)
-    3. Leverage the multiple browsers support
-    4. Use it for API testing
+1. Playwright overview
+    1. Actions and Assertions
+    2. Frontend testing
+    3. Backend (API) testing
+2. Creating your first E2E test
+3. Advanced techniques
 
 ---
 transition: slide-left
@@ -50,6 +47,7 @@ src: ./pages/playwright/01_backend.md
 ---
 
 ---
+transition: slide-down
 src: ./pages/playwright/02_backend_real_example.md
 ---
 
@@ -63,4 +61,18 @@ src: ./pages/first-test/01_playwright_setup.md
 
 ---
 src: ./pages/first-test/03_write_first_test.md
+layout: two-cols
+---
+
+---
+src: ./pages/first-test/04_playwright_codegen.md
+---
+
+---
+src: ./pages/advanced/00_tips.md
+---
+
+---
+src: ./pages/end.md
+layout: end
 ---
